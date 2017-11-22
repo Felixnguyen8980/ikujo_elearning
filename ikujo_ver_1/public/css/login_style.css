@@ -1,0 +1,95 @@
+body{
+  background-image: url('../image/background_basic.jpg');
+  background-repeat: none;
+}
+#parentContainer{
+  width: 100%;
+  
+}
+#mainContaint{
+  width: 27%;
+  margin:200px auto;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 40px;
+  border-radius: 3px;
+  background-color: white;
+}
+#header{
+  display: flex;
+  height: 100px;
+  align-items: center;
+  background: #81ACBC;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 1px #90B4BF;
+}
+#header .content{
+  width:100%;
+}
+#header h3{
+  text-align: center;
+  font-size: 30px;
+  background: #81ACBC;
+  color: #ECE7D8;
+}
+
+#form_login {
+  width: 90%;
+  margin: 50px auto;
+}
+
+#form_login #username{
+  width: 100%;
+}
+#form_login input {
+  margin: 10px 0 ;
+  padding: 15px 0;
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px #ECE7D8;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, #81ACBC 96%, #ECE7D8 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: #81ACBC;
+}
+input:focus, input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+  color: #81ACBC;
+  font-size: 11px;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  visibility: visible !important;
+}
+
+button {
+  border: none;
+  background: #81ACBC;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 6px;
+  width: 100%;
+  color: white;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  -webkit-transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+          transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+ 
+input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+  color: #81ACBC;
+  font-size: 11px;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  visibility: visible !important;
+}
+.alert{
+  color: red; 
+}
